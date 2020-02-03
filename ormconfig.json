@@ -1,0 +1,12 @@
+
+{
+  "type": "mongodb",
+  "host": "127.0.0.1",
+  "port": 27017,
+  "username": "root",
+  "password": "",
+  "database": "nest_db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "useUnifiedTopology": true
+}
